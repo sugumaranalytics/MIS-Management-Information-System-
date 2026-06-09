@@ -1,0 +1,93 @@
+What is $ in Excel / Google Sheets?
+
+The $ (Dollar Symbol) is used to lock a row, a column, or both in a formula so that it does not change when the formula is copied or dragged.
+
+Types of References
+
+| Reference Type                 | Formula | What is Locked? | When Dragged                    |
+| ------------------------------ | ------- | --------------- | ------------------------------- |
+| Relative Reference             | `A1`    | Nothing         | Row and Column change           |
+| Absolute Reference             | `$A$1`  | Row and Column  | Nothing changes                 |
+| Mixed Reference (Column Fixed) | `$A1`   | Column A        | Row changes, Column stays fixed |
+| Mixed Reference (Row Fixed)    | `A$1`   | Row 1           | Column changes, Row stays fixed |
+
+
+====
+
+Detailed Examples
+
+| Formula | Drag Right | Drag Down | Explanation                |
+| ------- | ---------- | --------- | -------------------------- |
+| `A1`    | `B1`       | `A2`      | Nothing locked             |
+| `$A$1`  | `$A$1`     | `$A$1`    | Everything locked          |
+| `$A1`   | `$A1`      | `$A2`     | Column locked, Row changes |
+| `A$1`   | `B$1`      | `A$1`     | Row locked, Column changes |
+
+
+==========
+
+Easy Memory Trick
+
+| Symbol Position | Meaning                 |
+| --------------- | ----------------------- |
+| `$A`            | Lock Column A           |
+| `$1`            | Lock Row 1              |
+| `$A$1`          | Lock Column A and Row 1 |
+
+==========
+
+Real Example
+
+Suppose:
+
+| A        | B          |
+| -------- | ---------- |
+| Tax Rate | 18%        |
+| 1000     | `=A2*$B$1` |
+| 2000     |            |
+| 3000     |            |
+
+
+Here:
+
+=A2*$B$1
+
+| Part   | Type     | Reason                          |
+| ------ | -------- | ------------------------------- |
+| `A2`   | Relative | Changes to A3, A4 when dragged  |
+| `$B$1` | Absolute | Always points to Tax Rate (18%) |
+
+
+=====
+
+One-Line Summary
+
+| Formula | Meaning           |
+| ------- | ----------------- |
+| `A1`    | Change everything |
+| `$A1`   | Lock Column       |
+| `A$1`   | Lock Row          |
+| `$A$1`  | Lock Both         |
+
+
+What does $ do?
+
+The $ symbol locks a row, a column, or both,
+preventing them from changing when a formula is copied or dragged to other cells.
+
+
+
+========
+
+
+
+
+
+
+
+
+
+
+
+
+
