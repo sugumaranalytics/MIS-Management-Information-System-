@@ -1,0 +1,13 @@
+| S.No | Topic                              | Status |
+| ---- | ---------------------------------- | ------ |
+| 1    | Number Formatting                  | ✅      |
+| 2    | Date Formatting                    | ✅      |
+| 3    | Percentage Formatting              | ✅      |
+| 4    | Relative Reference (`A1`)          | ✅      |
+| 5    | Absolute Reference (`$A$1`)        | ✅      |
+| 6    | Mixed Reference (`$A1`, `A$1`)     | ✅      |
+| 7    | What is `$` in Excel/Google Sheets | ✅      |
+
+
+========
+
