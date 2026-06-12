@@ -1,0 +1,115 @@
+Career Path
+
+MIS Executive → Senior MIS Executive → MIS Analyst → Business Analyst → Reporting Analyst → Data Analyst
+
+=====================================
+
+MIS = Management Information System
+
+It is a system that collects, processes, stores, and presents business data to help managers make decisions.
+
+Simple Definition
+
+MIS helps convert raw data into useful information for business decision-making.
+
+Example
+
+A company has daily sales data:
+
+| Day       | Sales   |
+| --------- | ------- |
+| Monday    | ₹10,000 |
+| Tuesday   | ₹12,000 |
+| Wednesday | ₹15,000 |
+
+======
+
+aw Data:
+
+10000
+12000
+15000
+
+Using MIS functions:
+
+=SUM(B2:B4)
+
+Result:
+
+₹37,000 Total Sales
+
+Now management can understand business performance quickly.
+
+=======
+
+Full Form Breakdown
+M – Management
+
+People who make business decisions.
+
+Examples:
+
+Manager
+Team Lead
+CEO
+I – Information
+
+Processed and meaningful data.
+
+Example:
+
+Instead of:
+
+10000
+12000
+15000
+
+Information becomes:
+
+Total Sales = ₹37,000
+S – System
+
+A process or software used to collect and analyze data.
+
+Examples:
+
+Excel
+Google Sheets
+Power BI
+ERP Systems
+SAP
+MIS Executive Work
+
+Common daily tasks:
+
+✅ Prepare sales reports
+
+✅ Update data in Excel/Google Sheets
+
+✅ Create dashboards
+
+✅ Generate management reports
+
+✅ Analyze business performance
+
+Example MIS Report
+
+| Metric        | Value     |
+| ------------- | --------- |
+| Total Sales   | ₹2,10,000 |
+| Average Sales | ₹35,000   |
+| Highest Sales | ₹60,000   |
+| Lowest Sales  | ₹10,000   |
+
+
+=======
+
+These values are calculated using:
+
+=SUM()
+=AVERAGE()
+=MAX()
+=MIN()
+
+======
+
