@@ -1,1 +1,21 @@
-s
+| Sl.No | Topic                         |
+| ----- | ----------------------------- |
+| 1     | VLOOKUP                       |
+| 2     | HLOOKUP                       |
+| 3     | XLOOKUP                       |
+| 4     | MATCH                         |
+| 5     | INDEX                         |
+| 6     | INDEX + MATCH                 |
+| 7     | Employee Master Lookup Report |
+| 8     | Real MIS Lookup Project       |
+
+
+Why Day 6 is Important
+
+In MIS Executive, MIS Analyst, Reporting Analyst, and Business Analyst roles, lookup functions are used daily to:
+
+Find employee details from Employee ID
+Fetch customer information
+Match sales records
+Retrieve product details
+Build automated reports
